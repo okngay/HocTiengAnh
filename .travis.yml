@@ -13,7 +13,7 @@ install:
   - npm install -g cordova
   
 before_script:
-  - cordova platform add browser
+  - cordova platform add browser --save
 
 script:
  - cordova prepare
