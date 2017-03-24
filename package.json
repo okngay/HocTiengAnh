@@ -1,7 +1,7 @@
 {
     "name": "hoctienganh",
     "version": "1.0.1",
-    "description": "App learn English!",
+    "description": "App learn English free!",
     "scripts": {
         "dev": "cordova run browser -- --lr",
         "apk": "cordova build android"
