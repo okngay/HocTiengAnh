@@ -11,10 +11,9 @@ node_js:
   
 install:
   - npm install -g cordova
-  - cordova platform add browser
-
+  
 before_script:
-  - node --version
+  - cordova platform add browser
 
 script:
  - cordova prepare
