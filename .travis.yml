@@ -20,7 +20,7 @@ before_script:
   #- cordova platform add browser --save
 
 script:
- - cordova prepare
+ - ls
   
 release:
   - exit 0  
