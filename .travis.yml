@@ -17,12 +17,10 @@ install:
   - echo y | android update sdk -u --filter android-22,android-23
 
 before_script:
-  - cordova platform rm android
   - cordova platform add android
 
 script:
-  - cordova prepare
-  - cordova build android
+  - cordova --help
   
 release:
   - exit 0  
