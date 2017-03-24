@@ -12,15 +12,18 @@ branches:
 
 install:
   - npm cache clean
+  - cd HocTiengAnh
   - npm install
   - npm install -g cordova
   - echo y | android update sdk -u --filter android-22,android-23
 
 before_script:
+  - cordova platform rm android
   - cordova platform add android
 
 script:
-  - cordova --help
+  - cordova prepare
+  - cordova build android
   
 release:
   - exit 0  
