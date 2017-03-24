@@ -7,20 +7,16 @@ android:
     #- android-22
 
 node_js:
-  - 4.4.7
-
-branches:
-  only:
-  - master
-
+  - "6"
+  
 install:
-  - npm install -g cordova
+  - #npm install -g cordova
 
 before_script:
-  - node -v
+  - node --version
 
 script:
-  - cordova -v
+  - cordova --version
   
 release:
   - exit 0  
