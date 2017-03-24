@@ -9,9 +9,6 @@ android:
 node_js:
   - "6"
 
-
-sudo: false
-
 branches:
   only:
   - master
@@ -23,8 +20,7 @@ before_script:
   - npm -v
 
 script:
-  - cordova --help
-  - cd list
+  - cordova -v
   
 release:
   - exit 0  
