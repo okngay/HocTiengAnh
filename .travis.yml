@@ -10,13 +10,14 @@ node_js:
   - "6"
   
 install:
-  - #npm install -g cordova
+  - npm install -g cordova
+  - cordova platform add browser
 
 before_script:
   - node --version
 
 script:
- ## - cordova --version
+ - cordova prepare
   
 release:
   - exit 0  
