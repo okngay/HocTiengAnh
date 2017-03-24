@@ -16,7 +16,7 @@ before_script:
   - node --version
 
 script:
-  - cordova --version
+ ## - cordova --version
   
 release:
   - exit 0  
