@@ -7,9 +7,9 @@
         "apk": "cordova build android"
     },
     "repository": {
-  "type": "git",
-  "url": "git://github.com/cuduy197/HocTiengAnh.git"
-},
+    "type": "git",
+    "url": "https://github.com/cuduy197/HocTiengAnh.git"
+    },
     "keywords": [
         "ecosystem:cordova"
     ],
