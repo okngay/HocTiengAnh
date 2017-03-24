@@ -3,6 +3,7 @@
     "version": "1.0.1",
     "description": "App learn English free!",
     "scripts": {
+        "test": "echo ok",
         "dev": "cordova run browser -- --lr",
         "apk": "cordova build android"
     },
