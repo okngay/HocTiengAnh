@@ -1,4 +1,6 @@
 # HocTiengAnh
+[![Build Status](https://travis-ci.org/cuduy197/HocTiengAnh.svg?branch=master)](https://travis-ci.org/cuduy197/HocTiengAnh)
+
 App học tiếng Anh sử dụng Cordova + Framewrok7 + VueJS + Vuex + Webpack2 + Firebase 
 
 
