@@ -270,4 +270,6 @@ Temporary Items
 .apdisk
 !/webpack/configs/
 
+#Back Up
+@@backup/
 #End
