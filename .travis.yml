@@ -18,7 +18,8 @@ install:
   
 before_script:
   - cordova platform add browser --save
-
+  - cordova platform add android --save
+  
 script:
  - cordova prepare
   
